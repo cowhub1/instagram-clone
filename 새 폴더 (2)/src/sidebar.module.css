@@ -101,3 +101,16 @@ padding: 20px;
   font-family: 'Cafe24Ssurround';
   color: black;
 }
+
+@media (max-width: 768px) {
+  /* 화면 너비가 768px 이하일 때 적용될 스타일 */
+  .sidebar {
+    left: -300px; /* 사이드바를 왼쪽으로 숨김 */
+  }
+  .button {
+    left: 10px; /* 토글 버튼 위치를 조정하여 사이드바를 열 수 있도록 함 */
+  }
+  .content {
+    padding-left: 20px; /* 컨텐츠 영역을 사이드바가 가려지지 않게 조정 */
+  }
+}
